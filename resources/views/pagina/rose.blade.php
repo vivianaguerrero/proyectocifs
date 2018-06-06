@@ -5,7 +5,7 @@
   <div class="col-sm-11">
     <h2>Rational Rose</h2><br>
     <p>
-      <img src="{{asset('img/rational_rose.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <img src="{{asset('img/rational_rose.png')}}" class="responsive img-rounded center-block" alt="User Image" >
     <p><br>
   </div>
 
