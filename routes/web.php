@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pagina.inicio');
 });
+
+// Route::get('/',[
+//   'uses'=>'paginaController@viewPagina',
+//   'as'=>'inicio'])->middleware('guest');
+
+
+//Route::resource('pagina', 'paginaController@viewPagina');
