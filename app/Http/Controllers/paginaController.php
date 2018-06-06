@@ -12,4 +12,21 @@ class paginaController extends Controller
 public function viewPagina(){
   return view('pagina.inicio');
 }
+
+public function viewPoo(){
+  return view('pagina.poo');
+}
+
+public function viewModelo(){
+  return view('pagina.modelo');
+}
+
+public function viewEclipse(){
+  return view('pagina.eclipse');
+}
+
+public function viewRouse(){
+  return view('pagina.rouse');
+}
+
 }
