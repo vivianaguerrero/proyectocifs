@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class paginaController extends Controller
 {
@@ -25,8 +26,13 @@ public function viewEclipse(){
   return view('pagina.eclipse');
 }
 
-public function viewRouse(){
-  return view('pagina.rouse');
+public function viewRose(){
+  return view('pagina.rose');
+}
+
+public function viewDescargar($file){
+  $pathtoFile = public_path().'//documents//'.$file;
+  return response()->download($pathtoFile);
 }
 
 }

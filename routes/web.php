@@ -35,10 +35,13 @@ Route::get('/eclipse', [
   'as' => 'eclipse'
 ])->middleware('guest');
 
-Route::get('/rationalrouse', [
-  'uses'=> 'paginaController@viewRouse',
-  'as' => 'rouse'
+Route::get('/rationalrose', [
+  'uses'=> 'paginaController@viewRose',
+  'as' => 'rose'
 ])->middleware('guest');
+
+Route::get('/descargar/{file}', 'paginaController@viewDescargar')->middleware('guest');
+
 
 // Route::get('/',[
 //   'uses'=>'paginaController@viewPagina',

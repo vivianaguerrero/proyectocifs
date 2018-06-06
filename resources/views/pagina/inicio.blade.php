@@ -29,7 +29,7 @@
         esta herramienta constara de datos básicos como nombre, número de identificación, teléfono y hora de ingreso o salida.
         Con este control se determinará quién debe entrar y quien no es autorizado para el ingreso a la propiedad, cuantas
         personas se encuentran actualmente en la propiedad, saber si alguien salió o entró una hora no esperada adicionalmente
-        permitirá fácilmente una generación de la nómina semanal
+        permitirá fácilmente una generación de la nómina semanal.
       </h4>
     </div>
 </div>

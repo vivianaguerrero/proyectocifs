@@ -36,6 +36,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     @yield('css')
+
+    <style>
+    .responsive {
+    width: 90%;
+    height: auto;
+    }
+    </style>
+
+
+
+
 </head>
 
 
@@ -46,7 +57,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="{{ Route('inicio')}}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">CIFS</span>
       <!-- logo for regular state and mobile devices -->
@@ -80,8 +91,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <img src="{{asset('img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
 
                 <p>
-                  Viviana A. Guerrero
+                  Viviana Andrea Guerrero
                   <small>Estudiante Ingeniería sistemas y computación</small>
+                  <small>Universidad del Quindío</small>
                 </p>
               </li>
 
@@ -124,8 +136,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li class="header">Opciones</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="{{ Route('inicio')}}"><i class="fa fa-link"></i> <span>Inicio</span></a></li>
-        <li class="active"><a href="{{ Route('poo')}}"><i class="fa fa-link"></i> <span>POO</span></a></li>
         <li class="active"><a href="{{ Route('modelonegocio')}}"><i class="fa fa-link"></i> <span>Modelo de negocio</span></a></li>
+        <li class="active"><a href="{{ Route('poo')}}"><i class="fa fa-link"></i> <span>POO</span></a></li>
 
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Herramientas</span>
@@ -135,7 +147,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </a>
           <ul class="treeview-menu">
             <li><a href="{{ Route('eclipse')}}">Eclipse</a></li>
-            <li><a href="{{ Route('rouse')}}">Rational Rouse</a></li>
+            <li><a href="{{ Route('rose')}}">Rational Rose</a></li>
           </ul>
         </li>
       </ul>
@@ -169,12 +181,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <!-- To the right -->
-    <div class="pull-right hidden-xs">
-      Anything you want
-    </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2018 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
 
 
