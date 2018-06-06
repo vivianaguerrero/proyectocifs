@@ -10,81 +10,69 @@
 
   <div class="container"><br>
     <br>
+
     <div class="col-sm-11">
-      <h4 align="center">Diagrama de clases</h4><br>
-      <div class="pull-left image" >
-        <img src="{{asset('img/poo/diagramadeclases.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Model Factory</h2><br>
+      <p>
+        <img src="{{asset('img/poo/modelFactory.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <p><br>
     </div>
 
     <div class="col-sm-11">
-      <h2>Domain</h2><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/poo/domain.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Domain</h2><br>
+      <p>
+        <img src="{{asset('img/poo/domain.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      </p><br>
     </div>
 
     <div class="col-sm-11">
-      <h2>Model Factory</h2><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/poo/modelFactory.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Transacción 1</h2><br>
+      <p>
+        <img src="{{asset('img/poo/transaccion1.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <p><br>
     </div>
 
     <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Transacción 2</h2><br>
+      <p>
+        <img src="{{asset('img/poo/transaccion2.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <p><br>
     </div>
 
     <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Vista para transacción 1 y 2</h2><br>
+      <p>
+        <img src="{{asset('img/poo/uitransaccion12.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <p><br>
     </div>
 
     <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Vista para CRUD empleado</h2><br>
+      <p>
+        <img src="{{asset('img/poo/uitransaccion1.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <p><br>
     </div>
 
     <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+      <h2 align="center">Vista para CRUD visitante</h2><br>
+      <p>
+        <img src="{{asset('img/poo/uitransaccion2.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+      <p><br>
     </div>
 
-    <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
+
+    <div class="container">
+        <h3>Prototipado funcional realizado con rose, emf, windows builder y eclipse:</h3>
+        <div class="col-sm-11">
+        <h4 align="justify">El objetivo de este documento es proporcionar la información del desarrollo de la herramienta de
+          software Control de ingreso de personal a la finca la Sierra (CIFS) se podrá observar todas y cada una de las partes
+          requeridas para la elaboración y ejecución de este proyecto esto implica la lógica e interfaces de usuario en eclipse,
+           el modelo en rose, así como también los formularios que serán usados; inicialmente dirigido al profesor William Joseph
+           Giraldo Orozco o quien se encuentre interesado en el proyecto.
+        </h4>
+        <a class="link" href="/descargar/proyecto_basicos_EMF.docx">click para descargar documento</a>
+        </div>
     </div>
 
-    <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
-    </div>
-
-    <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
-    </div>
-
-    <div class="col-sm-11">
-      <h4>imagen 1</h4><br>
-      <div class="pull-left image">
-        <img src="{{asset('img/user2-160x160.jpg')}}" class="img-rounded" alt="User Image">
-      </div><br>
-    </div>
 </div>
     @endsection
