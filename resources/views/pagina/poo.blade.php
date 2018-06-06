@@ -14,49 +14,49 @@
     <div class="col-sm-11">
       <h2 align="center">Model Factory</h2><br>
       <p>
-        <img src="{{asset('img/poo/modelFactory.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/modelFactory.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       <p><br>
     </div>
 
     <div class="col-sm-11">
       <h2 align="center">Domain</h2><br>
       <p>
-        <img src="{{asset('img/poo/domain.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/domain.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       </p><br>
     </div>
 
     <div class="col-sm-11">
       <h2 align="center">Transacción 1</h2><br>
       <p>
-        <img src="{{asset('img/poo/transaccion1.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/transaccion1.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       <p><br>
     </div>
 
     <div class="col-sm-11">
       <h2 align="center">Transacción 2</h2><br>
       <p>
-        <img src="{{asset('img/poo/transaccion2.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/transaccion2.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       <p><br>
     </div>
 
     <div class="col-sm-11">
       <h2 align="center">Vista para transacción 1 y 2</h2><br>
       <p>
-        <img src="{{asset('img/poo/uitransaccion12.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/uitransaccion12.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       <p><br>
     </div>
 
     <div class="col-sm-11">
       <h2 align="center">Vista para CRUD empleado</h2><br>
       <p>
-        <img src="{{asset('img/poo/uitransaccion1.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/uitransaccion1.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       <p><br>
     </div>
 
     <div class="col-sm-11">
       <h2 align="center">Vista para CRUD visitante</h2><br>
       <p>
-        <img src="{{asset('img/poo/uitransaccion2.jpg')}}" class="responsive img-rounded center-block" alt="User Image" >
+        <img src="{{asset('img/poo/uitransaccion2.png')}}" class="responsive img-rounded center-block" alt="User Image" >
       <p><br>
     </div>
 
